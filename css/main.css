@@ -1,0 +1,29 @@
+body {
+	background-color: #232B2B;
+}
+
+#heading, #clickCnt {
+	color: #4EB1BA;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+img {
+	max-height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #232B2B;
+}
