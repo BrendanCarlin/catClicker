@@ -1,0 +1,24 @@
+h1 {
+	font-size: 36px;
+	padding: 5px 5px;
+}
+
+img {
+	padding: 10px 5px;
+	height: 300px;
+}
+
+#clickCnt {
+	padding: 5px 5px;
+}
+
+#button {
+	padding: 5px 5px;
+}
+
+@media (orientation: landscape) {
+	#heading {display: none;}
+	img {height: 250px; padding: 10px 2px;}
+	#clickCnt {padding: 2px 2px;}
+	#button {padding: 2px 2px;}
+}
