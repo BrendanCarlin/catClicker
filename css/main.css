@@ -2,10 +2,14 @@ body {
 	background-color: #232B2B;
 }
 
-#heading, #clickCnt {
+#heading, #clickCnt, #catNames {
 	color: #4EB1BA;
 	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
+}
+
+#catNames h2 {
+	color: white;
 }
 
 h1 {
@@ -17,10 +21,15 @@ h3 {
 	font-size: 40px;
 }
 
-#photo {
-	width: 100%;
-	padding: 10px 30px 5px 30px;
+#phototainer {
+	height: 400px;
+}
 
+#photo, #photo1 {
+	max-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	padding: 10px 30px 5px 30px;
 }
 
 button {
